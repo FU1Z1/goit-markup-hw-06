@@ -262,6 +262,14 @@
                     </li>
                 </ul>
                 </div>
+                <div class="footer-sub">
+                    <p class="footer-sub-text">Subscribe</p>
+                    <form class="footer-form" name="footer-form">
+                        <label for="user_mail">Mail</label>
+                        <input type="email" name="user_mail" id="user_mail" placeholder="E-mail">
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
             </div>
         </footer>
 
@@ -274,6 +282,44 @@
                         <use href="./images/icons.svg/icon-close.svg#icon-close"></use>
                     </svg>
                 </button>
+                <form class="registration-form" name="registration_form">
+                <p id="">Leave your contacts and we will call you back</p>
+                <div class="registration-form-group" role="group" aria-labelledby="">
+                    <label class="registration-form-field">
+                        <span class="registration-form-label">Name</span>
+                        <input class="registration-form-input" type="text" name="user_name">
+                        <svg class="registration-form-icon">
+                            <use href=""></use>
+                        </svg>
+                    </label>
+                    <label class="registration-form-field">
+                        <span class="registration-form-label">Phone</span>
+                        <input class="registration-form-input" type="phone" name="user_phone">
+                        <svg class="registration-form-icon">
+                            <use href=""></use>
+                        </svg>
+                    </label>
+                    <label class="registration-form-field">
+                        <span class="registration-form-label">Email</span>
+                        <input class="registration-form-input" type="email" name="user_mail">
+                        <svg class="registration-form-icon">
+                            <use href=""></use>
+                        </svg>
+                    </label>
+                    <label>
+                        <span class="registration-form-label">Comment</span>
+                        <textarea class="registration-form-message" name="user-message" rows="7" placeholder="Text input"></textarea>
+                    </label>
+                </div>
+                <label class="registration-form-agreement">
+                    <input class="registration-form-checkbox" type="checkbox" name="">
+                    <span class="registration-form-text">
+                        I accept the terms and conditions of the
+                        <a class="registration-form-link" href="">Privacy Policy</a>
+                    </span>
+                </label>
+                <button type="submit">Send</button>
+                </form>
             </div>
         </div>
 
