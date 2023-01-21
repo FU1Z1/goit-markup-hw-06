@@ -265,9 +265,14 @@
                 <div class="footer-sub">
                     <p class="footer-sub-text">Subscribe</p>
                     <form class="footer-form" name="footer-form">
-                        <label for="user_mail">Mail</label>
-                        <input type="email" name="user_mail" id="user_mail" placeholder="E-mail">
-                        <button type="submit">Subscribe</button>
+                        <label class="footer-form-field" for="user_mail">
+                        <input class="footer-form-input" type="email" name="user_mail" id="user_mail" placeholder="E-mail">
+                        </label>
+                        <button class="footer-button-sub" type="submit">Subscribe
+                            <svg class="footer-sub-icon">
+                                <use href="./images/icons.svg/mail.svg#icon-mail"></use>
+                            </svg>
+                        </button>
                     </form>
                 </div>
             </div>
@@ -283,27 +288,27 @@
                     </svg>
                 </button>
                 <form class="registration-form" name="registration_form">
-                <p id="">Leave your contacts and we will call you back</p>
+                <strong class="registration-form-appeal">Leave your contacts and we will call you back</strong>
                 <div class="registration-form-group" role="group" aria-labelledby="">
                     <label class="registration-form-field">
                         <span class="registration-form-label">Name</span>
-                        <input class="registration-form-input" type="text" name="user_name">
+                        <input class="registration-form-input" type="text" name="user_name" required>
                         <svg class="registration-form-icon">
-                            <use href=""></use>
+                            <use href="./images/icons.svg/modal-icons.svg#icon-person-black"></use>
                         </svg>
                     </label>
                     <label class="registration-form-field">
                         <span class="registration-form-label">Phone</span>
-                        <input class="registration-form-input" type="phone" name="user_phone">
+                        <input class="registration-form-input" type="phone" name="user_phone" required>
                         <svg class="registration-form-icon">
-                            <use href=""></use>
+                            <use href="./images/icons.svg/modal-icons.svg#icon-phone-black"></use>
                         </svg>
                     </label>
                     <label class="registration-form-field">
                         <span class="registration-form-label">Email</span>
-                        <input class="registration-form-input" type="email" name="user_mail">
+                        <input class="registration-form-input" type="email" name="user_mail" required>
                         <svg class="registration-form-icon">
-                            <use href=""></use>
+                            <use href="./images/icons.svg/modal-icons.svg#icon-email-black"></use>
                         </svg>
                     </label>
                     <label>
@@ -318,7 +323,7 @@
                         <a class="registration-form-link" href="">Privacy Policy</a>
                     </span>
                 </label>
-                <button type="submit">Send</button>
+                <button class="registration-button" type="submit">Send</button>
                 </form>
             </div>
         </div>
